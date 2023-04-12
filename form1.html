@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Belajar Membuat Form Biodata</title>  
+        <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/boostsrap.css">
+    </head>
+    <body class="bgcolor">
+        <h1 class="txcolor bgcolor2" align="center">FORM BIODATA</h1>
+        <form action="" method="post">
+        
+        <table class="txcolor" border="0" align="center">
+            <tr>
+                <td>NIM</td>        
+                <td>:</td>
+                <td><input type="text" name="txtnim" size="15" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td>NAMA</td>
+                <td>:</td>
+                <td><input type="text" name="txtnim" size="50" maxlength="100"></td>
+            </tr>
+            <tr>
+                <td>JENIS KELAMIN</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="rbjeniskelamin" value="P"> Pria
+                    <input type="radio" name="rbjeniskelamin" value="W"> Wanita
+                    </td>
+            </tr>
+            <tr>
+                <td>JURUSAN</td>
+                <td>:</td>
+                <td>
+                    <select name="1stjurusan">
+                        <option value="">Pilihan ...</option>
+                        <option value="S1 SI">S1 SI</option>
+                        <option value="D3 RPL">D3 RPL</option>
+                        <option value="S1 Farmasi">S1 Farmasi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>HOBBY</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="cbhobby[]" value="Komputer"> Komputer
+                    <input type="checkbox" name="cbhobby[]" value="Musik"> Musik
+                    <input type="checkbox" name="cbhobby[]" value="Olahraga"> Olahraga
+                    <input type="checkbox" name="cbhobby[]" value="Travveling"> Travelling
+                </td>       
+            </tr>
+            <tr>
+                <td>CATATAN</td>
+                <td>:</td>
+                <td><textarea name="txtcatatan" cols="50" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>FOTO</td>
+                <td>:</td>
+                <td><input type="file" name="foto" accept="image/*"></td>
+            </tr>
+            <tr>
+                <td>EMAIL</td>
+                <td>:</td>
+                <td><input type="text" name="txtemail" size="50" maxlength="100"></td>
+            </tr>
+            <tr>
+                <td>SANDI LOGIN</td>
+                <td>:</td>
+                <td><input type="password" name="pw"></td>
+            </tr>
+            <tr>
+                <td>ULANGI SANDI LOGIN</td>
+                <td>:</td>
+                <td><input type="password" name="pw"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <input class="button1 hover" type="button" name="btnsimpan" value="Simpan">
+                    <input class="button2 hover2" type="button" name="btnbatal" value="Batal">
+                    <input class="button3 hover3" type="button" name="btnperingatan" value="Peringatan">
+                </td>
+            </tr>
+        </body>
+
+        </table> 
+</html>
